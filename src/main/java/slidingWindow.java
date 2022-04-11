@@ -18,6 +18,7 @@ class slidingWindow {
             System.out.println("Invalid");
         }
         int ind = k;
+
         /** shows which array element
          * will be examined next
           */

@@ -15,6 +15,7 @@ First (and feeble) attempt to implement the given test. I used several youtube c
 * https://docs.oracle.com/javase/8/docs/api/
 *https://www.programcreek.com/java-api-examples/?class=org.apache.commons.math3.stat.descriptive.DescriptiveStatistics&method=getMean
 *http://softwarelearner.blogspot.com/2011/04/minima-in-sliding-window.html
+*https://www.guru99.com/junit-annotations-api.html
 and many more
 */
 The first part was to create an array find statistic values and with the help of JUnit5 test to see
