@@ -42,7 +42,9 @@ class StatisticUtilsArrayListTest {
 
             }
         StatisticUtilsArrayList tester = new StatisticUtilsArrayList(doublesArray);
-
+/**create new object
+ * of StatisticUtilsArrayList class
+ */
 
 
         assertEquals(0,tester.getMin());

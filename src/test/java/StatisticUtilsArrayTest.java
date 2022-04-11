@@ -5,8 +5,6 @@ import java.util.*;
 import java.util.stream.DoubleStream;
 public class StatisticUtilsArrayTest {
     DescriptiveStatistics stats;
-    //double[] doublesArray = new double[10];
-    //doublesArray = {}
 
     @Test
     void testofArray() {
@@ -14,6 +12,10 @@ public class StatisticUtilsArrayTest {
         for (int i = 0; i < 10; i++) {
             doublesArray[i] = i;
         }
+        /** initialize an array
+         *  test the methods
+          */
+
         //System.out.println(doublesArray);
         StatisticUtilsArray stats = new StatisticUtilsArray(doublesArray);
         assertEquals(0, stats.getMin());

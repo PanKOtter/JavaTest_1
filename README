@@ -1,0 +1,26 @@
+First (and feeble) attempt to implement the given test. I used several youtube channels and sites.
+/** https://www.youtube.com/watch?v=_PbCmzMMwuI&list=PLLMmbOLFy25EAtFb1xsUFL3gvKBYsv3kn&index=181
+*(Dimitrios Psounis)
+* https://www.youtube.com/watch?v=flpmSXVTqBI- freeCodeCamp.org - Junit crash course
+* https://www.youtube.com/watch?v=vZm0lHciFsQ - Code with John - Junit
+* https://www.youtube.com/watch?v=K1iu1kXkVoA- Code with John - Generics in Java
+* https://commons.apache.org/proper/commons-math/javadocs/api-3.3/org/apache/commons/math3/stat/descriptive/DescriptiveStatistics - Descriptive statistics
+* https://www.geeksforgeeks.org - for everything
+* https://mvnrepository.com/artifact/org.apache.commons/commons-math3/3.6.1 - for all maven depedencies
+* https://www.softwaretestinghelp.com/java-arraylist-tutorial/
+* https://github.com/junit-team/junit5-samples
+* https://www.tabnine.com/code/java/methods/java.util.IntSummaryStatistics/getMin
+* https://stackoverflow.com/questions/19330832/setting-up-junit-with-intellij-idea
+* https://www.w3schools.com/java/ref_keyword_this.asp
+* https://docs.oracle.com/javase/8/docs/api/
+*http://softwarelearner.blogspot.com/2011/04/minima-in-sliding-window.html
+and many more
+*/
+The first part was to create an array find statistic values and with the help of JUnit5 test to see
+if it works properly. The second part is identical to the first except for the data type which is supposed
+to be examined ,was an ArrayList in Java. I used negative values,zero values to check if it works properly,
+it works somehow against all odds. The third part is a simplified and not so efficient implementation
+of sliding window technique.whose test I did not complete.I gained a lot of knowledge,
+thank you for giving me the opportunity to do this.
+
+
